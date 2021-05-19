@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T07:32:32.130Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="iM7Ani7op6G19sS3qzqR" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-19T07:43:11.216Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="hiDy3JgjNFhM7eeobE7D" version="14.6.13" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1447" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="723" dy="375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="77e6c97f196da883-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+        <mxCell id="77e6c97f196da883-1" value="Flow Process Press Shop IOT" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
           <mxGeometry x="20" y="20" width="820" height="830" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-2" value="&lt;font face=&quot;helvetica&quot;&gt;Database&lt;/font&gt;" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
@@ -37,7 +37,7 @@
         <mxCell id="77e6c97f196da883-6" value="Node Js (Server)" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="160" y="20" width="160" height="810" as="geometry" />
         </mxCell>
-        <mxCell id="j-q2rKWFq1lKvA7q3Dqb-64" value="&lt;b&gt;socket.io&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;Ambil Data Dies&lt;br&gt;dan Kanban&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;align=center;" parent="77e6c97f196da883-6" vertex="1">
+        <mxCell id="j-q2rKWFq1lKvA7q3Dqb-64" value="&lt;b&gt;socket.io&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; display: inline; float: none;&quot;&gt;Ambil Data Dies&lt;br&gt;dan Kanban&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;align=center;labelBorderColor=none;labelBackgroundColor=#ffffff;" parent="77e6c97f196da883-6" vertex="1">
           <mxGeometry x="20" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j-q2rKWFq1lKvA7q3Dqb-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="77e6c97f196da883-6" source="j-q2rKWFq1lKvA7q3Dqb-86" target="j-q2rKWFq1lKvA7q3Dqb-133" edge="1">
@@ -60,42 +60,14 @@
         <mxCell id="j-q2rKWFq1lKvA7q3Dqb-133" value="&lt;b&gt;socket.io&lt;/b&gt;&lt;br&gt;&lt;font face=&quot;helvetica&quot;&gt;Kirim Data&lt;br&gt;ke Web/Client&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;align=center;" parent="77e6c97f196da883-6" vertex="1">
           <mxGeometry x="20" y="741" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="j-q2rKWFq1lKvA7q3Dqb-65" value="&lt;b&gt;socket.io&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;Kirim Data Dies&lt;br&gt;&amp;amp;&lt;br&gt;Qty Produksi&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;align=center;" parent="77e6c97f196da883-6" vertex="1">
+        <mxCell id="j-q2rKWFq1lKvA7q3Dqb-65" value="&lt;b&gt;socket.io&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; display: inline; float: none;&quot;&gt;Kirim Data Dies&lt;br&gt;&amp;amp;&lt;br&gt;Qty Produksi&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;align=center;labelBackgroundColor=#ffffff;" parent="77e6c97f196da883-6" vertex="1">
           <mxGeometry x="20" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j-q2rKWFq1lKvA7q3Dqb-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="77e6c97f196da883-6" source="j-q2rKWFq1lKvA7q3Dqb-64" target="j-q2rKWFq1lKvA7q3Dqb-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-3" value="Python (Modbus)" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="320" y="20" width="160" height="810" as="geometry" />
-        </mxCell>
-        <mxCell id="j-q2rKWFq1lKvA7q3Dqb-67" value="&lt;b&gt;Modbus Setter&lt;/b&gt;&lt;br&gt;Set Parameter Dies&lt;br&gt;&amp;amp;&lt;br&gt;Qty Produksi" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;align=center;" parent="77e6c97f196da883-3" vertex="1">
-          <mxGeometry x="21" y="160" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="j-q2rKWFq1lKvA7q3Dqb-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="77e6c97f196da883-3" target="j-q2rKWFq1lKvA7q3Dqb-84" edge="1" source="j-q2rKWFq1lKvA7q3Dqb-79">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="497" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="10" y="316" />
-              <mxPoint x="10" y="520" />
-              <mxPoint x="81" y="520" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dWCW0qc48cw8u1y97zhh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" source="j-q2rKWFq1lKvA7q3Dqb-79" target="dWCW0qc48cw8u1y97zhh-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="j-q2rKWFq1lKvA7q3Dqb-79" value="&lt;b&gt;Modbus Getter&lt;/b&gt;&lt;br&gt;Get Informasi Mesin&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; 1. Counter&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; 2. Running Hour&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; 3. Temperatur&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; 4.Pressure&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; 5. Ampere&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; 6. Oil Level&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;align=center;" parent="77e6c97f196da883-3" vertex="1">
-          <mxGeometry x="20" y="246" width="120" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="j-q2rKWFq1lKvA7q3Dqb-84" value="&lt;b&gt;socket.io&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;Kirim Informasi Mesin&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;align=center;" parent="77e6c97f196da883-3" vertex="1">
-          <mxGeometry x="16" y="551" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dWCW0qc48cw8u1y97zhh-1" value="&lt;span style=&quot;text-align: left&quot;&gt;Counter &amp;lt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Qty Produksi&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry x="9" y="420" width="144" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="77e6c97f196da883-4" value="Keyence (PLC)" style="swimlane;html=1;startSize=20;verticalAlign=middle;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="480" y="20" width="180" height="810" as="geometry" />
+          <mxGeometry x="320" y="20" width="180" height="810" as="geometry" />
         </mxCell>
         <mxCell id="j-q2rKWFq1lKvA7q3Dqb-69" value="Simpan Parameter ke Holding Register (Keyence &amp;amp; Mesin)" style="whiteSpace=wrap;html=1;rounded=0;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="30" y="160" width="120" height="60" as="geometry" />
@@ -109,8 +81,17 @@
         <mxCell id="dWCW0qc48cw8u1y97zhh-4" value="Stop Produksi" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="30" y="480" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="j-q2rKWFq1lKvA7q3Dqb-76" value="Proses Produksi" style="whiteSpace=wrap;html=1;rounded=0;" parent="77e6c97f196da883-4" vertex="1">
+          <mxGeometry x="30" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-q2rKWFq1lKvA7q3Dqb-78" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="77e6c97f196da883-4" source="j-q2rKWFq1lKvA7q3Dqb-76" edge="1" target="j-q2rKWFq1lKvA7q3Dqb-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="380" as="sourcePoint" />
+            <mxPoint x="160" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="j-q2rKWFq1lKvA7q3Dqb-14" value="Display" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="660" y="20" width="160" height="810" as="geometry" />
+          <mxGeometry x="500" y="20" width="160" height="810" as="geometry" />
         </mxCell>
         <mxCell id="j-q2rKWFq1lKvA7q3Dqb-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="j-q2rKWFq1lKvA7q3Dqb-14" source="j-q2rKWFq1lKvA7q3Dqb-43" target="j-q2rKWFq1lKvA7q3Dqb-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -149,6 +130,34 @@
             <mxPoint x="530" y="390" as="sourcePoint" />
             <mxPoint x="190" y="111" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="77e6c97f196da883-3" value="Python (Modbus)" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry x="660" y="20" width="160" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="j-q2rKWFq1lKvA7q3Dqb-67" value="&lt;b&gt;Modbus Setter&lt;/b&gt;&lt;br&gt;Set Parameter Dies&lt;br&gt;&amp;amp;&lt;br&gt;Qty Produksi" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;align=center;" parent="77e6c97f196da883-3" vertex="1">
+          <mxGeometry x="21" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-q2rKWFq1lKvA7q3Dqb-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="77e6c97f196da883-3" target="j-q2rKWFq1lKvA7q3Dqb-84" edge="1" source="j-q2rKWFq1lKvA7q3Dqb-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="497" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="10" y="316" />
+              <mxPoint x="10" y="520" />
+              <mxPoint x="81" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWCW0qc48cw8u1y97zhh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" source="j-q2rKWFq1lKvA7q3Dqb-79" target="dWCW0qc48cw8u1y97zhh-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-q2rKWFq1lKvA7q3Dqb-79" value="&lt;b&gt;Modbus Getter&lt;/b&gt;&lt;br&gt;Get Informasi Mesin&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; 1. Counter&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; 2. Running Hour&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; 3. Temperatur&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; 4.Pressure&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; 5. Ampere&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; 6. Oil Level&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;align=center;" parent="77e6c97f196da883-3" vertex="1">
+          <mxGeometry x="20" y="246" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="j-q2rKWFq1lKvA7q3Dqb-84" value="&lt;b&gt;socket.io&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;Kirim Informasi Mesin&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;align=center;" parent="77e6c97f196da883-3" vertex="1">
+          <mxGeometry x="16" y="551" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dWCW0qc48cw8u1y97zhh-1" value="&lt;span style=&quot;text-align: left&quot;&gt;Counter &amp;lt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Qty Produksi&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="9" y="420" width="144" height="80" as="geometry" />
         </mxCell>
         <mxCell id="j-q2rKWFq1lKvA7q3Dqb-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-1" source="j-q2rKWFq1lKvA7q3Dqb-67" target="j-q2rKWFq1lKvA7q3Dqb-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -216,16 +225,7 @@
         <mxCell id="j-q2rKWFq1lKvA7q3Dqb-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="77e6c97f196da883-1" source="j-q2rKWFq1lKvA7q3Dqb-65" target="j-q2rKWFq1lKvA7q3Dqb-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="j-q2rKWFq1lKvA7q3Dqb-76" value="Proses Produksi" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="600" y="430" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="j-q2rKWFq1lKvA7q3Dqb-78" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="j-q2rKWFq1lKvA7q3Dqb-76" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="420" as="sourcePoint" />
-            <mxPoint x="660" y="390" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dWCW0qc48cw8u1y97zhh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dWCW0qc48cw8u1y97zhh-1" target="j-q2rKWFq1lKvA7q3Dqb-76">
+        <mxCell id="dWCW0qc48cw8u1y97zhh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="dWCW0qc48cw8u1y97zhh-1" target="j-q2rKWFq1lKvA7q3Dqb-76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dWCW0qc48cw8u1y97zhh-7" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dWCW0qc48cw8u1y97zhh-3">
